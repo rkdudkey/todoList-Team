@@ -2,30 +2,35 @@
 
 The project to create to do list 
 
-Minimum requirements - Add an entry, remove an entry, mark entry as complete.
+<strong>The requirements </strong>
+<ul>
+ <li>Add an entry </li>
+  <li>Remove an entry, </li>
+  <li>Mark entry as complete</li>
+</ul>
 
-UI Sample
+
+
+
+<h4>UI Mockup Plan </h4>
 
 <img src="https://github.com/rkdudkey/todoList-Team/blob/main/UI%20page.JPG">
 
 
 <strong>Create a brief proposal of what the team plans to include in the project. A checklist will be fine. </strong> </br></br>
+<h4>Draft for tasks </h4>
 Add item button in text box -- Natalie </br>
 Remove item Button --Liz </br>
 Completed item botton -- Soy </br>
 Clear all lists button --Soy </br>
  
 
-Be sure to implement the topics you have learned in class up to this point.
+<h4>Tech Stack:</h4>
 
- 
+HTML, CSS, JavaScript
 
-If you choose to implement additional code that has not been covered in class, be sure the entire team agrees and seek prior approval from the instructor/TA.
+<h4> Requiremnet Concept </h4>
 
- 
-
-You must include HTML, CSS, JavaScript
-
-Primitive data types, objects, arrays, this keyword at a minimum and then be creative and include OOP!
+Primitive data types, objects, arrays, this keyword and OOP
 
 <h1><a href="https://rkdudkey.github.io/todoList-Team/">Todo list Project Demo</a></h1>
