@@ -28,4 +28,4 @@ You must include HTML, CSS, JavaScript
 
 Primitive data types, objects, arrays, this keyword at a minimum and then be creative and include OOP!
 
-<h1 style="color:"red"><a href="https://rkdudkey.github.io/todoList-Team/">Todo list Project Demo</a></h1>
+<h1><a href="https://rkdudkey.github.io/todoList-Team/">Todo list Project Demo</a></h1>
