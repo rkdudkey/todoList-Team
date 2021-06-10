@@ -4,13 +4,15 @@ The project to create to do list
 
 Minimum requirements - Add an entry, remove an entry, mark entry as complete.
 
+UI Sample
+
 
 
 Create a brief proposal of what the team plans to include in the project. A checklist will be fine.
-Add item button in text box
-Remove item Button
-Completed item botton
-Clear all lists button 
+Add item button in text box -- Natalie
+Remove item Button --Liz
+Completed item botton -- Soy
+Clear all lists button --Soy
  
 
 Be sure to implement the topics you have learned in class up to this point.
