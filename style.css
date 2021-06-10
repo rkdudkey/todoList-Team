@@ -1,0 +1,83 @@
+body {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(92,189,220,1) 67%, rgba(0,212,255,1) 100%);  
+
+}
+
+ul li.checked {
+    text-decoration: line-through;
+}
+
+.content {
+    margin-top: 100px;
+    vertical-align: center;
+}
+
+
+#list {
+    min-width: 30%;
+    height: 38px;
+    position: relative;
+    border: 2px solid rgb(77, 77, 77);
+}
+
+#btn {
+    position: absolute;
+}
+
+.warning {
+    min-width: 30%;
+    text-align: center;
+    background-color: rgb(3, 49, 70);
+}
+
+#addList{
+    list-style-type:  none;
+    width: 30%;
+    margin: 0;
+    padding: 0;
+    
+}
+
+li.details {
+    background-color: #4adade;
+    padding-left: 30px;
+    color: #fff;
+    height: 40px;
+    border: 1px solid #1ac7ec;
+    line-height: 2.0;
+   
+}
+
+.fadeInOpacity{
+    opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 1s;
+}
+
+@keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+ 
+ .fadeOutOpacity {
+    opacity: 1;
+	animation-name: fadeOutOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-out;
+	animation-duration: 1s;
+    
+ }
+
+ 
+ @keyframes fadeOutOpacity {
+    0% {opacity: 1;}
+    100% {opacity: 0;}
+ }
