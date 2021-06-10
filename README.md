@@ -1,6 +1,6 @@
 # todoList-Team
 
-The project to create to do list 
+<h1>The project Todo List </h1>
 
 <strong>The requirements </strong>
 <ul>
@@ -22,7 +22,7 @@ The project to create to do list
 Add item button in text box -- Natalie </br>
 Remove item Button --Liz </br>
 Completed item botton -- Soy </br>
-Clear all lists button --Soy </br>
+Clear all lists button --Dylan </br>
  
 
 <h4>Tech Stack:</h4>
