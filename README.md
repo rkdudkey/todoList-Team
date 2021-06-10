@@ -29,7 +29,7 @@ Clear all lists button --Dylan </br>
 
 HTML, CSS, JavaScript
 
-<h4> Requiremnent JS concepts </h4>
+<h4> Requirement JS concepts </h4>
 
 Primitive data types, objects, arrays, this keyword and OOP
 
