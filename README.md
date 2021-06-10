@@ -6,13 +6,14 @@ Minimum requirements - Add an entry, remove an entry, mark entry as complete.
 
 UI Sample
 
+<img src="https://github.com/rkdudkey/todoList-Team/blob/main/UI%20page.JPG">
 
 
 Create a brief proposal of what the team plans to include in the project. A checklist will be fine.
-Add item button in text box -- Natalie
-Remove item Button --Liz
-Completed item botton -- Soy
-Clear all lists button --Soy
+Add item button in text box -- Natalie </br>
+Remove item Button --Liz </br>
+Completed item botton -- Soy </br>
+Clear all lists button --Soy </br>
  
 
 Be sure to implement the topics you have learned in class up to this point.
