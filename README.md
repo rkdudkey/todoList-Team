@@ -34,3 +34,8 @@ HTML, CSS, JavaScript
 Primitive data types, objects, arrays, this keyword and OOP
 
 <h1><a href="https://rkdudkey.github.io/todoList-Team/">Todo list Project Demo</a></h1>
+
+<h1> Agile tool <Trello Kanban Board> </h1>
+ <h4><a href="https://trello.com/b/9cUYq9mF/todo-list">Kanban Board</a></h4>
+ 
+ 
