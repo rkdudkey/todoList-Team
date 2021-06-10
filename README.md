@@ -19,8 +19,8 @@
 
 <strong>Proposal </strong> </br></br>
 
-Add item button in text box -- Natalie </br>
-Remove item Button --Liz </br>
+Add item button in text box -- Natalie  & Soy (Lots of functionalities this function)  </br>
+Remove item Button --Liz</br>
 Completed item botton -- Soy </br>
 Clear all lists button --Dylan </br>
  
