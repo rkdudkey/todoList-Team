@@ -18,7 +18,7 @@
 
 
 <strong>Proposal </strong> </br></br>
-<h4>Draft for tasks </h4>
+
 Add item button in text box -- Natalie </br>
 Remove item Button --Liz </br>
 Completed item botton -- Soy </br>
