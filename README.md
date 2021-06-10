@@ -9,7 +9,7 @@ UI Sample
 <img src="https://github.com/rkdudkey/todoList-Team/blob/main/UI%20page.JPG">
 
 
-Create a brief proposal of what the team plans to include in the project. A checklist will be fine. </br>
+<strong>Create a brief proposal of what the team plans to include in the project. A checklist will be fine. </strong> </br></br>
 Add item button in text box -- Natalie </br>
 Remove item Button --Liz </br>
 Completed item botton -- Soy </br>
