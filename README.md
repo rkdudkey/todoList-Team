@@ -17,7 +17,7 @@
 <img src="https://github.com/rkdudkey/todoList-Team/blob/main/UI%20page.JPG">
 
 
-<strong>Create a brief proposal of what the team plans to include in the project. A checklist will be fine. </strong> </br></br>
+<strong>Proposal </strong> </br></br>
 <h4>Draft for tasks </h4>
 Add item button in text box -- Natalie </br>
 Remove item Button --Liz </br>
