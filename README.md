@@ -1,28 +1,41 @@
 # todoList-Team
 
-The project to create to do list 
+<h1>The project Todo List </h1>
 
-Minimum requirements - Add an entry, remove an entry, mark entry as complete.
+<strong>The requirements </strong>
+<ul>
+ <li>Add an entry </li>
+  <li>Remove an entry, </li>
+  <li>Mark entry as complete</li>
+</ul>
 
-UI Sample
 
 
 
-Create a brief proposal of what the team plans to include in the project. A checklist will be fine.
-Add item button in text box -- Natalie
-Remove item Button --Liz
-Completed item botton -- Soy
-Clear all lists button --Soy
+<h4>UI Mockup Plan </h4>
+
+<img src="https://github.com/rkdudkey/todoList-Team/blob/main/UI%20page.JPG">
+
+
+<strong>Proposal </strong> </br></br>
+
+Add item button in text box -- Natalie  & Soy (Lots of functionalities this function)  </br>
+Remove item Button --Liz</br>
+Completed item botton -- Soy </br>
+Clear all lists button --Dylan </br>
  
 
-Be sure to implement the topics you have learned in class up to this point.
+<h4>Tech Stack:</h4>
 
+HTML, CSS, JavaScript
+
+<h4> Requirement JS concepts </h4>
+
+Primitive data types, objects, arrays, this keyword and OOP
+
+<h1><a href="https://rkdudkey.github.io/todoList-Team/">Todo list Project Demo</a></h1>
+
+<h1> Agile tool <Trello Kanban Board> </h1>
+ <h4><a href="https://trello.com/b/9cUYq9mF/todo-list">Kanban Board</a></h4>
  
-
-If you choose to implement additional code that has not been covered in class, be sure the entire team agrees and seek prior approval from the instructor/TA.
-
  
-
-You must include HTML, CSS, JavaScript
-
-Primitive data types, objects, arrays, this keyword at a minimum and then be creative and include OOP!
