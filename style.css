@@ -6,6 +6,7 @@ body {
 
 ul li.checked {
     text-decoration: line-through;
+    text-decoration-color: black;
 }
 
 .content {
@@ -38,11 +39,15 @@ ul li.checked {
     padding: 0;
 }
 
-.bin {
+li .bin {
     color: red;
     font-size: 14px;
-    margin: 0;
-    padding-right: 10px;
+    align-items: center;
+    margin-right: 20px;
+}
+
+li i span.newiTem {
+    padding-right: 30px;
 }
 
 li.details {
