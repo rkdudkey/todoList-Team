@@ -14,29 +14,30 @@ ul li.checked {
     vertical-align: center;
 }
 
+#btn {
+    position: relative;
+    width: 100%;
+    border-radius: 20px;
+}
 
 #list {
-    min-width: 30%;
+    min-width: 100%;
     height: 38px;
     position: relative;
     border: 2px solid rgb(77, 77, 77);
-}
-
-#btn {
-    position: absolute;
+    vertical-align: center;
 }
 
 .warning {
-    min-width: 30%;
+    min-width: 50%;
     text-align: center;
     background-color: rgb(3, 49, 70);
 }
 
 #addList{
     list-style-type:  none;
-    width: 30%;
-    margin: 0;
-    padding: 0;
+    width: 100%;
+    margin:0 20px;
 }
 
 li .bin {
@@ -44,6 +45,13 @@ li .bin {
     font-size: 14px;
     align-items: center;
     margin-right: 20px;
+}
+
+.btn-del {
+    border: none;
+    float: right;
+    background-color: #4adade ;
+    padding: 0 10px;
 }
 
 li i span.newiTem {
@@ -58,6 +66,18 @@ li.details {
     border: 1px solid #1ac7ec;
     line-height: 2.0;
    
+}
+
+.clearBtn {
+    margin-top: 20px;
+    float: right;
+    width: 150px;
+    color:cornsilk;
+    background: -webkit-linear-gradient(right,#00dbde,#fc00ff,#00dbde,#fc00ff);
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+
 }
 
 .fadeInOpacity{

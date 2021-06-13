@@ -24,17 +24,20 @@
 
 <body>
     <div class="row mx-auto container-fluid ">
-            <div class="col-md-6 mx-auto col-12 content bg-info">
+            <div class="col-md-3 mx-auto col-12 content bg-info">
                 <h1 class ="text-white text-center text-uppercase mt-5">To do List</h1>
-                <form class="text-center mt-5" action="">
-                    <input id="list" type="text" />
-                    <button id="btn" class="btn btn-secondary " type="submit">Submit</button>
-                </form>
+
+                <div class="container d-flex flex-column">
+                    <input id="list" class="text-center mt-5" type="text" />
+                    <button id="btn" class="btn btn-secondary mt-3" type="submit">Submit</button>
+                </div>
+                   
+               
             
                 <!--Add todo list here-->
                 <div class="todoList d-flex justify-content-center align-items-center flex-column mb-5">
                     <p class="warning mx-auto"></p>
-                    <ul id="addList">
+                    <ul id="addList" class="container">
                         <!--<li class="details"><i class="far fa-trash-alt bin"></i><span class="newItem">List 1</span></li>
                         <li class="details"><i class="far fa-trash-alt bin"></i><span class="newItem">List 2</span></li>-->
                     </ul>
