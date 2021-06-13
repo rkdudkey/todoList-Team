@@ -3,7 +3,7 @@ html{
     background-size: cover;
     background-repeat: no-repeat;
     position: fixed;
-    background-attachment: scroll;
+    background-attachment: fixed;
     background-position: 50% 50%;
     top: 0;
     right: 0;
@@ -20,7 +20,7 @@ html{
 
 .bg-wrapper {
     background-color: black;
-    opacity: 0.8;
+    font-family: 'Stint Ultra Condensed', cursive;
 }
 
 ul li.checked {
@@ -37,7 +37,14 @@ ul li.checked {
     position: relative;
     width: 100%;
     border-radius: 20px;
+    font-size: 20px;
+    letter-spacing: 1px;
     
+}
+
+span.text {
+    font-size: 20px;
+    letter-spacing: 1px;
 }
 
 #list {
