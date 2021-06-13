@@ -1,6 +1,21 @@
-body {
-    background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(92,189,220,1) 67%, rgba(0,212,255,1) 100%);  
+html {
+   background-image: url(./isabel-maria-guner-velasco-M3ymaLBPMQ8-unsplash.jpg);
+   background-size: cover;
+   position: fixed;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+    background-position: 50% 50%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 0;
+}
+
+.cg {
+    position: fixed;
+    width: 100%;
+    font-family: 'Stint Ultra Condensed', cursive;
 
 }
 
@@ -12,18 +27,24 @@ ul li.checked {
 .content {
     margin-top: 100px;
     vertical-align: center;
+    background-color: black;
 }
 
 
 #list {
-    min-width: 30%;
+    min-width: 100%;
     height: 38px;
     position: relative;
     border: 2px solid rgb(77, 77, 77);
 }
 
 #btn {
-    position: absolute;
+    position: relative;
+    min-width: 100%;
+    margin-top: 10px;
+    font-size: 20px;
+    letter-spacing: 1px;
+
 }
 
 .warning {
@@ -34,7 +55,7 @@ ul li.checked {
 
 #addList{
     list-style-type:  none;
-    width: 30%;
+    width: 100%;
     margin: 0;
     padding: 0;
 }
@@ -43,7 +64,6 @@ li .bin {
     color: red;
     font-size: 14px;
     align-items: center;
-    margin-right: 20px;
 }
 
 li i span.newiTem {
@@ -51,13 +71,17 @@ li i span.newiTem {
 }
 
 li.details {
-    background-color: #4adade;
+    background-color: rgb(122, 69, 19);;
     padding-left: 30px;
     color: #fff;
     height: 40px;
-    border: 1px solid #1ac7ec;
+    border: 1px solid white;
     line-height: 2.0;
-   
+}
+
+span.text{
+    font-size: 20px;
+    letter-spacing: 2px;
 }
 
 .fadeInOpacity{
@@ -91,4 +115,12 @@ li.details {
  @keyframes fadeOutOpacity {
     0% {opacity: 1;}
     100% {opacity: 0;}
+ }
+
+ .delete {
+     float: right;
+     margin: 0 auto;
+     border: none;
+     background: -webkit-linear-gradient(right,#121313,#ffae00,#f7e64e,#b88518);     
+     min-width: 50px;
  }

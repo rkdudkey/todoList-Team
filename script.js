@@ -11,7 +11,10 @@ class List {
             e.preventDefault();
 
             let delBtn = document.createElement('button');
+            //add class to delBtn
+            delBtn.className = 'delete'
             let checkBtn = document.createElement('button');
+            checkBtn.className = 'delete'
             let li = document.createElement('li');
 
             if (this.list.value === '') {
@@ -35,9 +38,13 @@ class List {
                 this.list.innerHTML = "";
 
                 //deleteItem function 
-                delBtn.addEventListener('click', (e) => {
-                   
+                delBtn.addEventListener('click', function (e){
+                    let parents = delBtn.parentElement;
+                    parents.remove();                    
                 });
+                        
+        
+ 
                 //completeItem function
                 checkBtn.addEventListener('click', (e) => {
                   li.classList.add('checked');
