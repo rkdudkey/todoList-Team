@@ -39,24 +39,21 @@ class List {
                 li.appendChild(delBtn);
                 li.appendChild(checkBtn);
 
-                list.innerHTML = "";
-
-                console.log(this.ul.childElementCount);
                 
                 //deleteItem function 
-                delBtn.addEventListener('click', (e) => {
-                   let parent = delBtn.parentNode;
-
-                   // if ul has a child left at 2 elements
-                   //delete li and clear button
-                    if(this.ul.childElementCount === 2){
-                        parent.remove();
-                        this.clearBtn.remove();
-                    }else {
-                        parent.remove();
-                    }
-                   
-                });
+                delBtn.addEventListener('click', () => {
+                    let parent = delBtn.parentNode;
+ 
+                    // if ul has a child left at 2 elements
+                    //delete li and clear button
+                     if(this.ul.childElementCount === 2){
+                         parent.remove();
+                         this.clearBtn.remove();
+                     }else {
+                         parent.remove();
+                     }
+                    
+                 });
 
 
                 //completeItem function

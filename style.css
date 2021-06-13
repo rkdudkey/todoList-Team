@@ -1,7 +1,26 @@
-body {
-    background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(92,189,220,1) 67%, rgba(0,212,255,1) 100%);  
+html{
+    background-image: url(bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: fixed;
+    background-attachment: scroll;
+    background-position: 50% 50%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 0;
+   
+}
 
+.todoWrap {
+    position: fixed;
+    width: 100%;
+}
+
+.bg-wrapper {
+    background-color: black;
+    opacity: 0.8;
 }
 
 ul li.checked {
@@ -18,6 +37,7 @@ ul li.checked {
     position: relative;
     width: 100%;
     border-radius: 20px;
+    
 }
 
 #list {
@@ -50,8 +70,9 @@ li .bin {
 .btn-del {
     border: none;
     float: right;
-    background-color: #4adade ;
+    background-color: rgb(240, 202, 33) ;
     padding: 0 10px;
+    height: 100%;
 }
 
 li i span.newiTem {
@@ -59,21 +80,22 @@ li i span.newiTem {
 }
 
 li.details {
-    background-color: #4adade;
+    background-color: rgb(122, 69, 19);
     padding-left: 30px;
     color: #fff;
     height: 40px;
-    border: 1px solid #1ac7ec;
+    border: 1px solid #e7a364c4;
     line-height: 2.0;
    
 }
 
 .clearBtn {
     margin-top: 20px;
+    font-weight: 700;
     float: right;
     width: 150px;
-    color:cornsilk;
-    background: -webkit-linear-gradient(right,#00dbde,#fc00ff,#00dbde,#fc00ff);
+    color: #000;
+    background: -webkit-linear-gradient(right,#121313,#ffae00,#f7e64e,#b88518);
     height: 40px;
     border: none;
     border-radius: 20px;
