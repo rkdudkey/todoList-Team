@@ -36,6 +36,8 @@ ul li.checked {
     height: 38px;
     position: relative;
     border: 2px solid rgb(77, 77, 77);
+    font-size: 25px;
+    letter-spacing: 2px;
 }
 
 #btn {
@@ -51,6 +53,8 @@ ul li.checked {
     min-width: 30%;
     text-align: center;
     background-color: rgb(3, 49, 70);
+    font-size: 20px;
+    letter-spacing: 2px;
 }
 
 #addList{
@@ -123,4 +127,5 @@ span.text{
      border: none;
      background: -webkit-linear-gradient(right,#121313,#ffae00,#f7e64e,#b88518);     
      min-width: 50px;
+     min-height: 100%;
  }
