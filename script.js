@@ -11,8 +11,8 @@ class List {
 
             let list = document.querySelector("#list");
             let warning = document.querySelector('.warning');
-            
-            if (list.value === '') {
+            list.value = list.value.trim();
+            if (list.value === '' ){
                 warning.innerHTML = "Please enter your to do list";
                 warning.style.color = "red";
             } else {
