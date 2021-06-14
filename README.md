@@ -14,7 +14,7 @@
 
 <h4>UI Mockup Plan </h4>
 
-<img src="https://github.com/rkdudkey/todoList-Team/blob/main/UI%20page.JPG">
+<img src="https://github.com/rkdudkey/todoList-Team/blob/main/UI-Final.JPG">
 
 
 <strong>Proposal </strong> </br></br>
