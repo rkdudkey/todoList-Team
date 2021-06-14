@@ -1,13 +1,18 @@
 class List {
-    list = document.querySelector("#list");
-    add = document.querySelector('#btn');
-    warning = document.querySelector('.warning');
-    ul = document.querySelector('#addList');
-    items = [];
 
+    //class fields
+    constructor(todoList, addBtn, warning, ul) {
+        this.todoList = todoList;
+        this.addBtn = addBtn;
+        this.warning = warning
+        this.ul = ul;
+        this.items = [];
+        this.clearBtn = document.createElement('button');
+        
+    }
 
-    addItems = function () {
-        this.add.addEventListener('click', (e) => {
+    renderAddtodo = function () {
+        this.addBtn.addEventListener('click', (e) => {
             e.preventDefault();
 
             //declare as a properties of this object
@@ -18,13 +23,14 @@ class List {
             checkBtn.className = 'delete'
             let li = document.createElement('li');
 
-            this.list.value = list.value.trim();
-            if (this.list.value === '') {
+            //get rid of white space
+            this.todoList.value = list.value.trim();
+            if (this.todoList.value === '') {
                 this.warning.innerHTML = "Please enter your to do list";
                 this.warning.style.color = "red";
             } else {
                 this.warning.innerHTML = "";
-                this.items.push(this.list.value);
+                this.items.push(this.todoList.value);
 
                 li.className = "details"
                 li.classList.add('fadeInOpacity');
@@ -37,7 +43,7 @@ class List {
                 li.appendChild(delBtn);
                 li.appendChild(checkBtn);
 
-                this.list.innerHTML = '';
+                this.todoList.innerHTML = '';
 
                 //deleteItem function 
                 delBtn.addEventListener('click', function (e){
@@ -50,25 +56,31 @@ class List {
                   li.classList.toggle('checked');
                 })
 
+                //clear all button
+                this.clearBtn.innerHTML = "Clear All"
+                this.ul.appendChild(this.clearBtn);
+                this.clearBtn.classList.add('clearBtn');
+                this.clearBtn.addEventListener('click', (e) => {
+                    this.ul.remove();
+                    window.location.reload();
+                })
+
+
             }
 
-            this.list.value = '';
+            this.todoList.value = '';
         })
     }
 
 }
 
-
-let newPush = new List();
-newPush.addItems();
-
-
-
+const todoList = document.querySelector("#list");
+const add = document.querySelector('#btn');
+const warning = document.querySelector('.warning');
+const ul = document.querySelector('#addList');
 
 
-
-
-
-
+let newPush = new List(todoList, add, warning, ul);
+console.log(newPush.renderAddtodo());
 
 
