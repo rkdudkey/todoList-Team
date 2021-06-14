@@ -1,95 +1,77 @@
-
 class List {
-    add = document.querySelector('#btn');
-    ul = document.querySelector('#addList');
-    clearBtn = document.createElement('button');
-    items = [];
 
-    addItems = function () {
-        this.add.addEventListener('click', (e) => {
-            e.preventDefault();
+    //class fields
+    constructor(todoList, addBtn, warning, ul) {
+        this.todoList = todoList;
+        this.addBtn = addBtn;
+        this.warning = warning
+        this.ul = ul;
+        this.items = [];
+    }
 
-            let list = document.querySelector("#list");
-            let warning = document.querySelector('.warning');
-            list.value = list.value.trim();
-            if (list.value === '' ){
-                warning.innerHTML = "Please enter your to do list";
-                warning.style.color = "red";
+    //make an li element
+    static createListItem(text) {
+        const li = document.createElement('li');
+        li.classList.add('details');
+        li.classList.add('fadeInOpacity');
+        li.innerHTML = `<span class="text">${text} </span>`;
+
+        li.appendChild(List.createDeleteButton());
+
+        return li;
+    }
+
+    static createDeleteButton(){
+        let delBtn = document.createElement('button');
+        delBtn.classList.add('delete');
+
+        return delBtn;
+    }
+
+    updateItem(text) {
+        this.ul.appendChild(List.createListItem(text));
+    }
+
+    addItem() {
+        this.addBtn.addEventListener('click', () => {
+
+            //trim to get rid of the white space
+            this.todoList.value = list.value.trim();
+
+            if (this.todoList.value === '') {
+                this.warning.innerHTML = "Please enter your to do list";
+                this.warning.style.color = "red";
             } else {
-                
-                let delBtn = document.createElement('button');
-                let checkBtn = document.createElement('button');
-                let li = document.createElement('li');
+                this.warning.innerHTML = "";
+                this.items.push(this.todoList.value);
 
-                warning.innerHTML = "";
-                this.items.push(list.value);
-
-                li.className = "details"
-                li.classList.add('fadeInOpacity');
-                delBtn.innerHTML = `<i class="far fa-trash-alt bin"></i>`;
-                checkBtn.innerHTML = `<i class="far fa-check-circle"></i>`;
-                li.innerHTML = `<span class="text">${this.items[this.items.length - 1]} </span>`;
-
-                //add styling classes both delBtn and checkedBtn
-                delBtn.classList.add('btn-del');
-                checkBtn.classList.add('btn-del');
-
-                //append the text and icons
-                this.ul.appendChild(li);
-                li.appendChild(delBtn);
-                li.appendChild(checkBtn);
-
-                
-                //deleteItem function 
-                delBtn.addEventListener('click', () => {
-                    let parent = delBtn.parentNode;
- 
-                    // if ul has a child left at 2 elements
-                    //delete li and clear button
-                     if(this.ul.childElementCount === 2){
-                         parent.remove();
-                         this.clearBtn.remove();
-                     }else {
-                         parent.remove();
-                     }
-                    
-                 });
-
-
-                //completeItem function
-                checkBtn.addEventListener('click', (e) => {
-                  li.classList.add('checked');
-                });
-
-
-                //clear all button
-                this.clearBtn.innerHTML = "Clear All"
-                this.ul.appendChild(this.clearBtn);
-                this.clearBtn.classList.add('clearBtn');
-                this.clearBtn.addEventListener('click', (e) => {
-                    this.ul.remove();
-                    window.location.reload();
-                })
-
+                //update last item of the array
+                this.updateItem(this.items[this.items.length - 1]);
             }
 
-            list.value = '';
-
         })
+
+    }
+
+    remove(index) {
+        this.items.splice(index, 1);
+        this.updateItem; h
+    }
+
+    removeAll() {
+
     }
 
 }
 
-let newPush = new List();
-console.log(newPush.addItems());
 
 
+const todoList = document.querySelector("#list");
+const add = document.querySelector('#btn');
+const warning = document.querySelector('.warning');
+const ul = document.querySelector('#addList');
 
 
-
-
-
-
-
-
+let newPush = new List(todoList, add, warning, ul);
+console.log(newPush.addItem());
 

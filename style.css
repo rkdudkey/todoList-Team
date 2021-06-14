@@ -1,143 +1,147 @@
-html{
-    background-image: url(bg.jpg);
+html {
+    background-image: url(./isabel-maria-guner-velasco-M3ymaLBPMQ8-unsplash.jpg);
     background-size: cover;
+    position: fixed;
     background-repeat: no-repeat;
-    position: fixed;
     background-attachment: fixed;
-    background-position: 50% 50%;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    z-index: 0;
-   
-}
-
-.todoWrap {
-    position: fixed;
-    width: 100%;
-}
-
-.bg-wrapper {
-    background-color: black;
-    font-family: 'Stint Ultra Condensed', cursive;
-}
-
-ul li.checked {
-    text-decoration: line-through;
-    text-decoration-color: black;
-}
-
-.content {
-    margin-top: 100px;
-    vertical-align: center;
-}
-
-#btn {
-    position: relative;
-    width: 100%;
-    border-radius: 20px;
-    font-size: 20px;
-    letter-spacing: 1px;
-    
-}
-
-span.text {
-    font-size: 20px;
-    letter-spacing: 1px;
-}
-
-#list {
-    min-width: 100%;
-    height: 38px;
-    position: relative;
-    border: 2px solid rgb(77, 77, 77);
-    vertical-align: center;
-}
-
-.warning {
-    min-width: 50%;
-    text-align: center;
-    background-color: rgb(3, 49, 70);
-}
-
-#addList{
-    list-style-type:  none;
-    width: 100%;
-    margin:0 20px;
-}
-
-li .bin {
-    color: red;
-    font-size: 14px;
-    align-items: center;
-    margin-right: 20px;
-}
-
-.btn-del {
-    border: none;
-    float: right;
-    background-color: rgb(240, 202, 33) ;
-    padding: 0 10px;
-    height: 100%;
-}
-
-li i span.newiTem {
-    padding-right: 30px;
-}
-
-li.details {
-    background-color: rgb(122, 69, 19);
-    padding-left: 30px;
-    color: #fff;
-    height: 40px;
-    border: 1px solid #e7a364c4;
-    line-height: 2.0;
-   
-}
-
-.clearBtn {
-    margin-top: 20px;
-    font-weight: 700;
-    float: right;
-    width: 150px;
-    color: #000;
-    background: -webkit-linear-gradient(right,#121313,#ffae00,#f7e64e,#b88518);
-    height: 40px;
-    border: none;
-    border-radius: 20px;
-
-}
-
-.fadeInOpacity{
-    opacity: 1;
-	animation-name: fadeInOpacity;
-	animation-iteration-count: 1;
-	animation-timing-function: ease-in;
-	animation-duration: 1s;
-}
-
-@keyframes fadeInOpacity {
-	0% {
-		opacity: 0;
-	}
-	100% {
-		opacity: 1;
-	}
-}
-
- 
- .fadeOutOpacity {
-    opacity: 1;
-	animation-name: fadeOutOpacity;
-	animation-iteration-count: 1;
-	animation-timing-function: ease-out;
-	animation-duration: 1s;
-    
+     background-position: 50% 50%;
+     top: 0;
+     right: 0;
+     bottom: 0;
+     left: 0;
+     z-index: 0;
  }
-
  
- @keyframes fadeOutOpacity {
-    0% {opacity: 1;}
-    100% {opacity: 0;}
+ .cg {
+     position: fixed;
+     width: 100%;
+     font-family: 'Stint Ultra Condensed', cursive;
+ 
  }
+ 
+ .clearBtn {
+     margin-top: 20px;
+     float: right;
+     width: 150px;
+     color: #000;
+     background: -webkit-linear-gradient(right,#121313,#ffae00,#f7e64e,#b88518);
+     height: 40px;
+     border: none;
+     border-radius: 20px;
+     font-size: 20px;
+     margin: 20px;
+     letter-spacing: 1px;
+     font-weight: bold;
+ 
+ }
+ 
+ ul li.checked {
+     text-decoration: line-through;
+     text-decoration-color: black;
+ }
+ 
+ .content {
+     margin-top: 100px;
+     vertical-align: center;
+     background-color: black;
+ }
+ 
+ 
+ #list {
+     min-width: 100%;
+     height: 38px;
+     position: relative;
+     border: 2px solid rgb(77, 77, 77);
+     font-size: 25px;
+     letter-spacing: 2px;
+ }
+ 
+ #btn {
+     position: relative;
+     min-width: 100%;
+     margin-top: 10px;
+     font-size: 20px;
+     letter-spacing: 1px;
+ 
+ }
+ 
+ .warning {
+     min-width: 30%;
+     text-align: center;
+     background-color: rgb(3, 49, 70);
+     font-size: 20px;
+     letter-spacing: 2px;
+ }
+ 
+ #addList{
+     list-style-type:  none;
+     width: 100%;
+     margin: 0;
+     padding: 0;
+ }
+ 
+ li .bin {
+     color: red;
+     font-size: 14px;
+     align-items: center;
+ }
+ 
+ li i span.newiTem {
+     padding-right: 30px;
+ }
+ 
+ li.details {
+     background-color: rgb(122, 69, 19);;
+     padding-left: 30px;
+     color: #fff;
+     height: 40px;
+     border: 1px solid white;
+     line-height: 2.0;
+ }
+ 
+ span.text{
+     font-size: 20px;
+     letter-spacing: 2px;
+ }
+ 
+ .fadeInOpacity{
+     opacity: 1;
+     animation-name: fadeInOpacity;
+     animation-iteration-count: 1;
+     animation-timing-function: ease-in;
+     animation-duration: 1s;
+ }
+ 
+ @keyframes fadeInOpacity {
+     0% {
+         opacity: 0;
+     }
+     100% {
+         opacity: 1;
+     }
+ }
+ 
+  
+  .fadeOutOpacity {
+     opacity: 1;
+     animation-name: fadeOutOpacity;
+     animation-iteration-count: 1;
+     animation-timing-function: ease-out;
+     animation-duration: 1s;
+     
+  }
+ 
+  
+  @keyframes fadeOutOpacity {
+     0% {opacity: 1;}
+     100% {opacity: 0;}
+  }
+ 
+  .delete {
+      float: right;
+      margin: 0 auto;
+      border: none;
+      background: -webkit-linear-gradient(right,#121313,#ffae00,#f7e64e,#b88518);     
+      min-width: 50px;
+      min-height: 100%;
+  }
