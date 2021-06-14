@@ -17,6 +17,7 @@ class List {
             checkBtn.className = 'delete'
             let li = document.createElement('li');
 
+
             if (this.list.value === '') {
                 this.warning.innerHTML = "Please enter your to do list";
                 this.warning.style.color = "red";
@@ -35,32 +36,35 @@ class List {
                 li.appendChild(delBtn);
                 li.appendChild(checkBtn);
 
-                this.list.innerHTML = "";
+                this.list.innerHTML = '';
 
                 //deleteItem function 
                 delBtn.addEventListener('click', function (e){
                     let parents = delBtn.parentElement;
                     parents.remove();                    
                 });
-                        
-        
- 
+
                 //completeItem function
                 checkBtn.addEventListener('click', (e) => {
                   li.classList.add('checked');
-                });
+                })
 
             }
 
-            this.list.value = " ";
-
+            this.list.value = '';
         })
     }
 
 }
 
+function clearAll(){
+   document.getElementById("addList").innerHTML = "";  
+   
+}
+
 let newPush = new List();
-console.log(newPush.addItems());
+newPush.addItems();
+
 
 
 

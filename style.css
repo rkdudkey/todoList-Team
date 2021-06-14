@@ -19,6 +19,22 @@ html {
 
 }
 
+.clearBtn {
+    margin-top: 20px;
+    float: right;
+    width: 150px;
+    color: #000;
+    background: -webkit-linear-gradient(right,#121313,#ffae00,#f7e64e,#b88518);
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    font-size: 20px;
+    margin: 20px;
+    letter-spacing: 1px;
+    font-weight: bold;
+
+}
+
 ul li.checked {
     text-decoration: line-through;
     text-decoration-color: black;
