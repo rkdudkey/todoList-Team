@@ -1,6 +1,3 @@
-
-
-
 class List {
     list = document.querySelector("#list");
     add = document.querySelector('#btn');
