@@ -17,7 +17,7 @@ class List {
             checkBtn.className = 'delete'
             let li = document.createElement('li');
 
-
+            this.list.value = list.value.trim();
             if (this.list.value === '') {
                 this.warning.innerHTML = "Please enter your to do list";
                 this.warning.style.color = "red";
@@ -57,10 +57,6 @@ class List {
 
 }
 
-function clearAll(){
-   document.getElementById("addList").innerHTML = "";  
-   
-}
 
 let newPush = new List();
 newPush.addItems();
