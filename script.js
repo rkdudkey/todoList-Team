@@ -1,4 +1,6 @@
 
+
+
 class List {
     list = document.querySelector("#list");
     add = document.querySelector('#btn');
@@ -6,10 +8,12 @@ class List {
     ul = document.querySelector('#addList');
     items = [];
 
+
     addItems = function () {
         this.add.addEventListener('click', (e) => {
             e.preventDefault();
 
+            //declare as a properties of this object
             let delBtn = document.createElement('button');
             //add class to delBtn
             delBtn.className = 'delete'
@@ -46,7 +50,7 @@ class List {
 
                 //completeItem function
                 checkBtn.addEventListener('click', (e) => {
-                  li.classList.add('checked');
+                  li.classList.toggle('checked');
                 })
 
             }
